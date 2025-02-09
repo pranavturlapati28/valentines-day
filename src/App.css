@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/ValtinDemo-nRAYP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', 'Arial', sans-serif;
+  background-image: url('/images/background.png');
+  background-size: cover;          /* Makes the background image cover the entire screen */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;    /* Keeps the background fixed while scrolling */
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}

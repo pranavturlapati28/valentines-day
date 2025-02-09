@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/ValtinDemo-nRAYP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont';
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'MyCustomFont';
+  font-size: 36px;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+button {
+  margin: 10px;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Success Button */
+.btn-success {
+  background: linear-gradient(135deg, #ff85a1, #ff4374);
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #ff6490, #ff2b66);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 85, 136, 0.4);
+}
+
+/* Danger Button */
+.btn-danger {
+  background: linear-gradient(135deg, #ff6f61, #ff3333);
+}
+
+.btn-danger:hover {
+  background: linear-gradient(135deg, #ff503b, #ff0000);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 79, 79, 0.4);
+}
+
+/* Button Active State */
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Additional button animations */
+button:hover {
+  animation: button-hover-pulse 0.3s ease;
+}
+
+@keyframes button-hover-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

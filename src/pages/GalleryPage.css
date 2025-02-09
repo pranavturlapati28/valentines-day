@@ -1,0 +1,44 @@
+.gallery-container {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: 'MyCustomFont', 'Arial', sans-serif;
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  background: rgba(255, 182, 193, 1); /* Light pink with some transparency */
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 600px;
+  animation: fade-in 1s ease-in-out;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Animation to fade in the container */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
