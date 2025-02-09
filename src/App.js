@@ -4,7 +4,7 @@ import GalleryPage from './pages/GalleryPage';
 
 function App() {
   return (
-    <Router basename="/valentine-website">
+    <Router basename="/valentine-day">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gallery" element={<GalleryPage />} />
