@@ -3,7 +3,7 @@
   padding: 20px;
   color: white;
   font-family: 'MyCustomFont', 'Arial', sans-serif;
-  background-image: url('/images/background.png');
+  background-image: url('../assets/images/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('/fonts/ValtinDemo-nRAYP.ttf') format('truetype');
+  src: url('../assets/fonts/ValtinDemo-nRAYP.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   font-family: 'MyCustomFont';
-  background-image: url('/images/background.png');
+  background-image: url('../assets/images/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
