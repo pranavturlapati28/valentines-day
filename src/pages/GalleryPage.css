@@ -42,3 +42,50 @@ h1 {
     transform: scale(1);
   }
 }
+
+.text-container {
+  background: rgba(255, 182, 193, 0.9); /* Light pink */
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  animation: fade-in 1s ease-in-out;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-go-itinerary {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #ff4d88;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-go-itinerary:hover {
+  background-color: #ff1744;
+  transform: scale(1.05);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
